@@ -1,0 +1,23 @@
+{
+  "name": "@keychord/chords-whatsapp",
+  "displayName": "WhatsApp Chords",
+  "description": "Chords for the native WhatsApp app, covering chats, Info, groups, calls, settings and more.",
+  "categories": [
+    "Social"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeyChord/chords-whatsapp"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "bun test --isolate"
+  },
+  "devDependencies": {
+    "@keychord/chordtest": "workspace:*",
+    "@keychord/config": "catalog:",
+    "@keychord/tsconfig": "catalog:",
+    "@types/bun": "latest"
+  },
+  "packageManager": "pnpm@12.11.2"
+}
